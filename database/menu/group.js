@@ -5,7 +5,7 @@ const group = (prefix, botName, ownerName) => {
 ◪ *INFO*
   ❏ Prefix: 「  ${prefix}  」
   ❏ Creator: ${ownerName}
-  ❏ Version: 0.0.4
+  ❏ Version: FULLROOT
 ◪ *ABOUT*
   │
   ├─ ❏ ${prefix}info
