@@ -97,11 +97,21 @@ const { wibu } = require('./database/menu/wibu')
 const { limit } = require('./database/menu/limit*/
 
 // Load Vcard Contact
+const BotName = 'MAHA';
+const wa = 'https://chat.whatsapp.com/+628821914995';
+const eror = 'Info fitur Error';
+const ow = 'MAHA';
+const nomorowner = '088219149952';
+const ovo = '088219149952';
+const pulsa = '088219149952';
+const dana = '088219149952';
+const instagram = 'http://www.instagram.com/baratayudha_id';
+const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:MAHA\n' // full name
-            + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=12542123926:+6288219149952\n' // WhatsApp ID + phone number
+            + 'ORG:BOTHACI;\n' // the organization of the contact
+            + 'TEL;type=CELL;type=VOICE;waid=6288219149952:+62 882-1914-9952\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 prefix = '.'
 blocked = []
